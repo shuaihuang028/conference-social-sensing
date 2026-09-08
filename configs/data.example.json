@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "name": "conference_a",
+      "svg_dir": "data/raw/conference_a/svg",
+      "annotations_path": "data/raw/conference_a/annotations.xlsx"
+    },
+    {
+      "name": "conference_b",
+      "svg_dir": "data/raw/conference_b/svg",
+      "annotations_path": "data/raw/conference_b/annotations.xlsx"
+    }
+  ],
+  "output_dir": "data/processed",
+  "extract_images": true,
+  "low_confidence_threshold": 0.5,
+  "fail_on_error": true
+}

@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.0
+openpyxl>=3.1
+Pillow>=10.0
+torch>=2.13
+torchvision>=0.28
+fastapi>=0.141
+uvicorn>=0.52
+python-multipart>=0.0.20
+httpx>=0.28
+matplotlib>=3.11

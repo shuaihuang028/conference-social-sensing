@@ -1,0 +1,31 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Private source data
+Shuai_ASSA26_1-150/
+Shuai_CLEO_401-550/
+Coding_Week1_Shuai.xlsx
+Coding_Week2_Shuai.xlsx
+coding instructions.pdf
+configs/data.json
+data/raw/
+
+# Generated datasets and model artifacts
+data/processed/
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.onnx
