@@ -1,0 +1,13 @@
+{
+  "processed_dir": "data/processed",
+  "output_file": "data/processed/splits.csv",
+  "report_file": "data/processed/split_report.json",
+  "strategy": "contiguous_blocks",
+  "block_size": 10,
+  "ratios": {
+    "train": 0.70,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "provisional": true
+}

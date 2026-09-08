@@ -1,0 +1,7 @@
+{
+  "groups_file": "data/processed/groups.csv",
+  "splits_file": "data/processed/splits.csv",
+  "output_dir": "artifacts/baselines",
+  "label_columns": ["form_A", "form_B", "form_C", "form_D"],
+  "threshold": 0.5
+}

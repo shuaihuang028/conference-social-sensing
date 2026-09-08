@@ -1,0 +1,30 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Private source data
+/*ASSA*/
+/*CLEO*/
+*.xlsx
+*.pdf
+configs/data.json
+data/raw/
+
+# Generated datasets and model artifacts
+data/processed/
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.onnx
